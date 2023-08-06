@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+  }
+  
+  #projects .project {
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  /* Animation on Scroll (AOS) */
+  [data-aos] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  [data-aos].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
